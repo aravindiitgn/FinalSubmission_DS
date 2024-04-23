@@ -1,0 +1,18 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  \
+"../../../../project_posit_ds_f.srcs/sources_1/new/DSR_left_N_S.v" \
+"../../../../project_posit_ds_f.srcs/sources_1/new/DSR_right_N_S.v" \
+"../../../../project_posit_ds_f.srcs/sources_1/new/LOD_N.v" \
+"../../../../project_posit_ds_f.srcs/sources_1/new/LZD_N.v" \
+"../../../../project_posit_ds_f.srcs/sources_1/new/add_N.v" \
+"../../../../project_posit_ds_f.srcs/sources_1/new/add_mantovf.v" \
+"../../../../project_posit_ds_f.srcs/sources_1/new/data_extract.v" \
+"../../../../project_posit_ds_f.srcs/sources_1/new/posit_adder.v" \
+"../../../../project_posit_ds_f.srcs/sources_1/new/sub_N.v" \
+"../../../../project_posit_ds_f.srcs/sim_1/new/posit_adder_tb.v" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort
